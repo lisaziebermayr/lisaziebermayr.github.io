@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    padding-top: 10vh;
+}
+img{
+    padding: 20px;
+}
+
+p{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    color: rgb(203, 203, 203);
+    text-align: center;
+}
+
+p:hover{
+    color: black;
+}
+
+li{
+    list-style: none;
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#0000ff;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Caudex", serif;
+    font-weight: 400;
+}
+
+figcaption{
+    padding-bottom: 10px;
+}
+
+.popup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#body_introduction{
+    background-image: url("./media/boat.gif");
+}
+
+#body_parodos{
+    background-image: url("./media/waterreflections.gif");
+}
+
+#body_episode{
+    background-image: url("./media/ocean.gif");
+}
+
+#body_stasimon{
+    background-image: url("./media/ice sound.gif");
+}
+
+#body_exodos{
+    background-image: url("./media/Quiet Morning.gif");
+}

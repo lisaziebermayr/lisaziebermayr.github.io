@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+body {
+    overflow: hidden;
+    background-image: url("./media/radio2.gif");
+}
+
+p{
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.author{
+    font-style: italic;
+    color: rgb(111, 130, 255);
+}
+
+.main {
+    width: vw;
+    height: vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+#hyperTooltip{
+    width: 500px;
+    position: fixed;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+#archiveTooltip{
+    width: 500px;
+    position: fixed;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/* Making tooltip visible */
+#hyperpop:hover #hyperTooltip{
+    opacity: 1;
+    visibility: visible;
+}
+
+#archive:hover #archiveTooltip{
+    opacity: 1;
+    visibility: visible;
+}
